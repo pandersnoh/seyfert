@@ -1,9 +1,0 @@
-body { color:#44484f; font-size:12px; line-height:1.3em; font-family:"Malgun Gothic", "Dotum", sans-serif; overflow-y:scroll; }
-h1,h2,h3,h4,h5,h6 { font-family:"Malgun Gothic", serif; }
-input { font-family:"Malgun Gothic", "Dotum", serif; }
-a:link, a:visited { }
-a:hover, a:focus, a:active { }
-
-.fl { float:left; }
-.clearfix:after { content:""; display:block; clear:both; }
-.mr0 { margin-right:0px !important; }
