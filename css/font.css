@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'Malgun Gothic';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/MalgunGothic.eot');
+	src: local('Malgun Gothic'), url('../font/MalgunGothic') format('woff');
+}
+
+@font-face {
+	font-family: 'Malgun Gothic Bold';
+	font-style: normal;
+	font-weight: bold;
+	src: url('../font/MalgunGothic-Bold.eot');
+	src: local('Malgun Gothic Bold'), url('../font/MalgunGothic-Bold') format('woff');
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/BebasNeue.eot');
+	src: local('Bebas Neue'), url('../font/BebasNeue.woff') format('woff'), url('../font/BebasNeue.ttf') format('truetype');
+}
+

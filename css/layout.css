@@ -1,0 +1,66 @@
+@charset "utf-8";
+.fl { float:left; }
+.clearfix:after { content:""; display:block; clear:both; }
+.mr0 { margin-right:0px !important; }
+	
+	@media all and (min-width:1200px) {
+		html, body { height:100%; margin:0; padding:0;}
+		.wrapper {height: 100%;}
+
+		/* header */
+		header { width:100%;height: 70px; background-color: #f0f0f0; border-bottom:3px solid #039dcf;position:relative;z-index: 20;}
+		header .header_top { width:1200px; height:70px; text-align:center; margin:0 auto; position:relative; }
+		header h1 a { width:139px; height:39px;display: inline-block; text-indent:-1000em; background:url("../images/common/sey_logo.png") no-repeat; vertical-align:-15px;}
+		header .lang_select { position:absolute; top:20px; right:0;  }
+		header .lang_select .lang_link { width:79px; height:30px;  }
+		header .lang_select .lang_link a { color:#ffffff; font-family:"Verdana"; display:block; width:79px; height:30px; line-height:30px; background-color:#0498cf; }
+		header .lang_select .lang_link a:hover {background-color: #06abf0; color:#ffffff !important;}
+
+		/* footer */
+		footer { width:100%; height:120px; border-top:2px solid #ebeff1; position: relative;}
+		footer .footerCont { width:1200px; margin:0 auto; position:relative; }
+		footer .footerCont .footer_logo { position:absolute; top:22px; left:0; width:141px; height:42px; text-indent:-1000em; background:url("../images/common/sey_footlogo.png") no-repeat;  }
+		footer .footerCont .footer_address { padding-left:250px; padding-top:22px; }
+		footer .footerCont .footer_address p { font-size:12px;font-family: "Verdana",serif; font-weight:200; color:#666666;}
+		footer .footerCont .footer_address p .blue { color:#0075b5; font-weight:600; }
+		footer .footerCont .footer_address p .tel_title { color:#444444; }
+		footer .footerCont .footer_address .copyright { padding-top:14px; }
+		footer .footerCont .paygate_logo { position:absolute; top:22px; right:0; width:146px; height:38px; text-indent:-1000em; background:url("../images/common/paygate_logo.jpg") no-repeat;  }
+	}
+
+	/* 800px ~ 1199px */
+	@media all and (min-width:760px) and (max-width:1199px) {
+		header .header_top { width:100%; padding-top:10px; padding-bottom:10px; background-color: #f0f0f0; border-bottom:3px solid #039dcf;position:relative;z-index: 20;}
+		header .header_top  h1 { text-align:center;  }
+		header .header_top  h1 a { width:100px; height:28px;display: inline-block; text-indent:-1000em; background:url("../images/common/sey_logo.png") no-repeat; background-size:100px 28px; }
+		header .lang_select { display:none; }
+
+		/* footer */
+		footer { width:100%; height:120px;/* border-top:2px solid #ebeff1; */ position: relative; overflow:hidden;}
+		footer .footerCont { width:1200px; margin:0 auto; position:relative; }
+		footer .footerCont .footer_logo { position:absolute; top:22px; left:30px; width:141px; height:42px; text-indent:-1000em; background:url("../images/common/sey_footlogo.png") no-repeat;  }
+		footer .footerCont .footer_address { padding-left:250px; padding-top:22px; }
+		footer .footerCont .footer_address p { font-size:12px;font-family: "Verdana",serif; font-weight:200; color:#666666;}
+		footer .footerCont .footer_address p .blue { color:#0075b5; font-weight:600; }
+		footer .footerCont .footer_address p .tel_title { color:#444444; }
+		footer .footerCont .footer_address .copyright { padding-top:14px; }
+		footer .footerCont .paygate_logo { display:none; }
+	}
+
+	/* 230px ~ 799px */
+	@media all and (min-width:230px) and (max-width:759px) {
+		header .header_top { width:100%; padding-top:10px; padding-bottom:10px; background-color: #f0f0f0; border-bottom:3px solid #039dcf;position:relative;z-index: 20;}
+		header .header_top  h1 { text-align:center;  }
+		header .header_top  h1 a { width:100px; height:28px;display: inline-block; text-indent:-1000em; background:url("../images/common/sey_logo.png") no-repeat; background-size:100px 28px; }
+		header .lang_select { display:none; }
+		footer { width:100%;/* height:120px; */ border-top:2px solid #ebeff1; clear:both;}
+		footer .footerCont {/* width:1200px; *//* margin:0 auto; *//* position:relative; */}
+		footer .footerCont .footer_logo { display:none;  }
+		footer .footerCont .footer_address {padding-left: 10px;padding-right: 10px;padding-top: 15px;padding-bottom: 15px;}
+		footer .footerCont .footer_address p {font-size: 12px;font-family: "Verdana",serif; font-weight:200; color:#666666;}
+		footer .footerCont .footer_address p .blue { color:#0075b5; font-weight:600; }
+		footer .footerCont .footer_address p .tel_title { color:#444444; }
+		footer .footerCont .footer_address .copyright { padding-top:14px; }
+		footer .footerCont .paygate_logo { display:none;  }
+	}
+
