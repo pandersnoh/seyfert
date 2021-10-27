@@ -6,7 +6,7 @@
 구현결과 : https://pandersnoh.github.io/seyfert/
 
 # 작업개요
-
+- 제작년도 : 2016년
 - 사용언어 : HTML5, CSS3<br/>
 - 작업기여도 : 퍼블리싱 100%
 
