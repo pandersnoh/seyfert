@@ -3,7 +3,7 @@
 클라우드 기반 핀테크 플랫폼 세이퍼트의 메인 페이지입니다.<br/>
 반응형 웹으로 제작되어 디바이스별로 최적화된 UI를 제공하도록 제작되었습니다..<br/>
 
-구현결과 : https://pandersnoh.github.io/seyfert/
+구현결과 : https://lucid-heisenberg-ebf10d.netlify.app/
 
 # 작업개요
 - 제작년도 : 2016년
